@@ -49,13 +49,7 @@ function changeLetter(){
   var carString = document.getElementById("cotxe").innerHTML;
   carString = carString.replace(/o/gi,"u");
   document.getElementById("lletra").innerHTML = carString;  
-}
-
-                    /* Sintaxis del métode REPLACE:       var carString = carString.replace(/u/gi, "*");
-                    /o/ hem d'indicar la lletra/valor que volem canviar en mig de //
-                    g significa  global. Per que canviï totes les lletres com la de l'exemple (o)
-                    i indica "insensitive" per no distingir MAY o MIN. Es opcional
-                    "u" el segon parámetre es el nou valor que volem. Entre " " */
+}                  
 
 
 /*  Exercici 7:
